@@ -1,0 +1,12 @@
+.button-generic {
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 30px;
+  background-color: #6842ff;
+  color: #eff0f7;
+  font-size: 1.125rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
