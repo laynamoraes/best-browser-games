@@ -16,3 +16,10 @@
 .input-generic:focus {
   outline: 2px solid #6842ff;
 }
+
+/* ::-webkit-calendar-picker-indicator {
+  background-color: #ffffff;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+} */

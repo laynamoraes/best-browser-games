@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "name": "Matheus Lindoso",
+      "email": "matheus@email.com",
+      "password": "123456789",
+      "date": "27/09/1997",
+      "state": "Maranhão",
+      "country": "Brasil",
+      "id": "IWgO9Le"
+    },
+    {
+      "name": "Layna Moraes",
+      "email": "teste@teste.com",
+      "password": "123456",
+      "date": "22/10/1997",
+      "state": "Maranhão",
+      "country": "Brasil",
+      "id": "bHnNtlM"
+    },
+    {
+      "name": "José Silva",
+      "email": "jose@gmail.com",
+      "password": "6526565256",
+      "date": "12/12/2005",
+      "state": "Maranhão",
+      "country": "Brasil",
+      "id": "JACQ2MH"
+    },
+    {
+      "name": "Janaína Silva",
+      "email": "jana@gmail.com",
+      "password": "656626265",
+      "date": "02/09/2000",
+      "state": "Maranhão",
+      "country": "Brasil",
+      "id": "OMSN545"
+    },
+    {
+      "name": "Maria Silva",
+      "email": "maria@gmail.com",
+      "password": "6565265",
+      "date": "02/09/2001",
+      "state": "",
+      "country": "",
+      "id": "piavjKe"
+    },
+    {
+      "name": "João Marcos",
+      "email": "joao@email.com",
+      "password": "6165266",
+      "date": "15/03/2002",
+      "state": "Maranhão",
+      "country": "Brasil",
+      "id": "99e585x"
+    },
+    {
+      "name": "Gustavo Jose",
+      "email": "gus@email.com",
+      "password": "65165265",
+      "date": "08/05/2005",
+      "state": "Maranhão",
+      "country": "Brasil",
+      "id": "yfvL123"
+    },
+    {
+      "name": "Luana Silva",
+      "email": "lua@email.com",
+      "password": "ciscnsacsa",
+      "date": "18/02/1997",
+      "state": "Maranhão",
+      "country": "Brasil",
+      "id": "MiN5Egb"
+    }
+  ]
+}

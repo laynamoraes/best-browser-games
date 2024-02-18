@@ -5,10 +5,11 @@ export default function Input(props) {
     <input
       placeholder={props.placeholder}
       className="input-generic"
-      type="text"
+      type={props.type}
       name={props.name}
       id={props.id}
-      value={props.value}
+      onChange={props.onChange}
+      required
     />
   )
 }

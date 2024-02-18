@@ -2,6 +2,6 @@ import "./styles.css"
 
 export default function Button(props) {
   return (
-    <button className="button-generic">{props.description}</button>
+    <button type={props.type} className="button-generic">{props.description}</button>
   )
 }
