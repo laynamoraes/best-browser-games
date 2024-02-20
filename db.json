@@ -71,6 +71,33 @@
       "state": "Maranhão",
       "country": "Brasil",
       "id": "MiN5Egb"
+    },
+    {
+      "name": "Marcos Vinicius",
+      "email": "marcos@email.com",
+      "password": "123456789",
+      "date": "13/04/1998",
+      "state": "Maranhão",
+      "country": "Brasil",
+      "id": "PqP0BDD"
+    },
+    {
+      "name": "Lucas Souza",
+      "email": "lucas@email.com",
+      "password": "123456789",
+      "date": "02/10/2000",
+      "state": "Maranhão",
+      "country": "Brasil",
+      "id": "IVQEcZP"
+    },
+    {
+      "name": "Marcia Brasil",
+      "email": "marcia@email.com",
+      "password": "65165651",
+      "date": "05/07/2001",
+      "state": "Maranhão",
+      "country": "Brasil",
+      "id": "i__G4h3"
     }
   ]
 }
