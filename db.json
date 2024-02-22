@@ -98,6 +98,194 @@
       "state": "Maranhão",
       "country": "Brasil",
       "id": "i__G4h3"
+    },
+    {
+      "name": "Ytalo Moraes",
+      "email": "ytalo@email.com",
+      "password": "1234567",
+      "date": "16/04/2000",
+      "state": "Maranhão",
+      "country": "Brasil",
+      "id": "QCXXgTp"
+    },
+    {
+      "name": "Layna Moraes",
+      "email": "teste@teste.com",
+      "password": "65265165",
+      "date": "22/10/1997",
+      "state": "Maranhão",
+      "country": "Brasil",
+      "id": "1dYusOQ"
+    }
+  ],
+  "games": [
+    {
+      "id": 515,
+      "name": "Halo Infinite",
+      "category": "Shooter",
+      "description": "Pela primeira vez, uma experiência gratuita de Halo está disponível na forma do multiplayer de Halo Infinite.",
+      "imageURL": "https://www.freetogame.com/g/515/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/halo-infinite"
+    },
+    {
+      "id": 573,
+      "name": "Titan Revenge",
+      "category": "MMORPG",
+      "description": "Um MMORPG 3D temático nórdico desenvolvido e publicado pela Game Hollywood Games.",
+      "imageURL": "https://www.freetogame.com/g/573/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/titan-revenge"
+    },
+    {
+      "id": 522,
+      "name": "Flyff Universe",
+      "category": "MMORPG",
+      "description": "Obtenha a experiência completa do Flyff em qualquer plataforma com o MMORPG baseado em navegador Flyff Universe.",
+      "imageURL": "https://www.freetogame.com/g/522/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/flyff-universe"
+    },
+    {
+      "id": 511,
+      "name": "Phantasy Star Online 2 New Genesis",
+      "category": "MMORPG",
+      "description": "O legado de Phantasy Star Online 2 continua mil anos depois!",
+      "imageURL": "https://www.freetogame.com/g/511/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/pso2-new-genesis"
+    },
+    {
+      "id": 455,
+      "name": "Eternal Fury",
+      "category": "MMORPG",
+      "description": "Um ARPG gratuito da R2 Games!",
+      "imageURL": "https://www.freetogame.com/g/455/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/eternal-fury"
+    },
+    {
+      "id": 5,
+      "name": "Crossout",
+      "category": "Shooter",
+      "description": "Um jogo de combate veicular pós-apocalíptico MMO!",
+      "imageURL": "https://www.freetogame.com/g/5/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/crossout"
+    },
+    {
+      "id": 9,
+      "name": "World of Warships",
+      "category": "Shooter",
+      "description": "Um MMO de ação naval gratuito em 3D dos criadores de World of Tanks!",
+      "imageURL": "https://www.freetogame.com/g/9/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/world-of-warships"
+    },
+    {
+      "id": 12,
+      "name": "War Thunder",
+      "category": "Shooter",
+      "description": "Um shooter MMO que coloca você no comando de centenas dos melhores veículos de combate da Segunda Guerra Mundial.",
+      "imageURL": "https://www.freetogame.com/g/12/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/war-thunder"
+    },
+    {
+      "id": 2,
+      "name": "World of Tanks",
+      "category": "Shooter",
+      "description": "Se você gosta de explodir tanques, com um estilo de jogo rápido e intenso, você vai adorar este jogo!",
+      "imageURL": "https://www.freetogame.com/g/2/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/world-of-tanks"
+    },
+    {
+      "id": 560,
+      "name": "Palia",
+      "category": "MMORPG",
+      "description": "Um MMO aconchegante com construção de casas e alguma aventura.",
+      "imageURL": "https://www.freetogame.com/g/560/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/palia"
+    },
+    {
+      "id": 458,
+      "name": "League of Angels - Heaven's Fury",
+      "category": "MMORPG",
+      "description": "Um RPG de ação online e gratuito baseado em navegador, vagamente baseado na mitologia ocidental!",
+      "imageURL": "https://www.freetogame.com/g/458/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/league-of-angels-heavens-fury"
+    },
+    {
+      "id": 14,
+      "name": "Star Trek Online",
+      "category": "MMORPG",
+      "description": "Um MMORPG de ficção científica 3D gratuito baseado na popular série Star Trek.",
+      "imageURL": "https://www.freetogame.com/g/14/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/star-trek-online"
+    },
+    {
+      "id": 529,
+      "name": "Tower of Fantasy",
+      "category": "MMORPG",
+      "description": "Tower of Fantasy é um RPG de mundo aberto 3D, MMO de ficção científica com estilo anime e personagens únicos em vistas abertas e belas!",
+      "imageURL": "https://www.freetogame.com/g/529/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/tower-of-fantasy"
+    },
+    {
+      "id": 528,
+      "name": "Noah’s Heart",
+      "category": "MMORPG",
+      "description": "Noah’s Heart é um MMORPG de mundo aberto com foco em exploração e socialização.",
+      "imageURL": "https://www.freetogame.com/g/528/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/noahs-heart"
+    },
+    {
+      "id": 466,
+      "name": "Valorant",
+      "category": "Shooter",
+      "description": "Teste sua coragem no shooter FPS baseado em personagens da Riot Games, Valorant.",
+      "imageURL": "https://www.freetogame.com/g/466/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/valorant"
+    },
+    {
+      "id": 467,
+      "name": "Phantasy Star Online 2",
+      "category": "MMORPG",
+      "description": "Bem-vindo à ARKS, uma força-tarefa de elite que busca planetas perigosos em Phantasy Star 2 Online, o popular MMORPG de ficção científica gratuito da Sega.",
+      "imageURL": "https://www.freetogame.com/g/467/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/pso2"
+    },
+    {
+      "id": 452,
+      "name": "Call Of Duty: Warzone",
+      "category": "Shooter",
+      "description": "Um battle royale independente e gratuito, acessível via Call of Duty: Modern Warfare.",
+      "imageURL": "https://www.freetogame.com/g/452/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/call-of-duty-warzone"
+    },
+    {
+      "id": 21,
+      "name": "Destiny 2",
+      "category": "Shooter",
+      "description": "Um MMOFPS de ficção científica multiplayer gratuito da Bungie.",
+      "imageURL": "https://www.freetogame.com/g/21/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/destiny-2"
+    },
+    {
+      "id": 1,
+      "name": "Dauntless",
+      "category": "MMORPG",
+      "description": "Um RPG de ação cooperativa gratuito com jogabilidade semelhante a Monster Hunter.",
+      "imageURL": "https://www.freetogame.com/g/1/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/dauntless"
+    },
+    {
+      "id": 23,
+      "name": "Apex Legends",
+      "category": "Shooter",
+      "description": "Um jogo estratégico de battle royale gratuito com partidas de 60 jogadores e jogabilidade baseada em equipe.",
+      "imageURL": "https://www.freetogame.com/g/23/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/apex-legends"
+    },
+    {
+      "id": 57,
+      "name": "Fortnite",
+      "category": "Shooter",
+      "description": "Um modo autônomo gratuito do Fortnite da Epic Games.",
+      "imageURL": "https://www.freetogame.com/g/57/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/fortnite-battle-royale"
     }
   ]
 }

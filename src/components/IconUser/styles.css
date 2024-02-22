@@ -1,0 +1,15 @@
+.icon-user-container {
+  width: 45px;
+  height: 45px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  background-color: #6842ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-user-content {
+  font-size: 1.5rem;
+  font-weight: 700;
+}

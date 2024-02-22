@@ -9,14 +9,11 @@ import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 
 function App() {
-  const signUpModal = document.getElementById("sign-up-modal")
-  const logInModal = document.getElementById("log-in-modal")
-
-  const navigate = useNavigate()
-
   const [showModalSignUp, setShowModalSignUp] = useState(false)
   const [showModalLogIn, setShowModalLogIn] = useState(false)
   const [errorLogin, setErrorLogin] = useState("")
+
+  const navigate = useNavigate()
 
   const [formData, setFormData] = useState({
     name: "",
@@ -31,26 +28,6 @@ function App() {
     email: "",
     password: "",
   })
-
-  function openModalSignUp() {
-    setShowModalSignUp(true)
-    signUpModal.classList.toggle("hidden")
-  }
-
-  function closeModalSignUp() {
-    setShowModalSignUp(false)
-    signUpModal.classList.toggle("hidden")
-  }
-
-  function openModalLogIn() {
-    setShowModalLogIn(true)
-    logInModal.classList.toggle("hidden")
-  }
-
-  function closeModalLogIn() {
-    setShowModalLogIn(false)
-    logInModal.classList.toggle("hidden")
-  }
 
   const createUser = (e) => {
     e.preventDefault()
@@ -80,7 +57,7 @@ function App() {
         (document.getElementById("input-date").value = ""),
         (document.getElementById("input-state").value = ""),
         (document.getElementById("input-country").value = ""),
-        closeModalSignUp(),
+        setShowModalSignUp(false),
 
         alert("Cadastro criado com sucesso!")
       )
@@ -122,7 +99,7 @@ function App() {
 
   return (
     <>
-      <nav>
+      <nav className="navbar-container-home">
         <ul className="navbar-content">
           <li>
             <h1>
@@ -133,130 +110,137 @@ function App() {
               BestBrowserGames
             </h1>
           </li>
-          <li>
-            <input type="text" placeholder="Search" name="" id="input-search" />
-          </li>
           <li className="buttons">
-            <button className="button-sign-up" onClick={openModalSignUp}>
+            <button
+              className="button-sign-up"
+              onClick={() => setShowModalSignUp(true)}
+            >
               Sign up
             </button>
-            <button className="button-log-in" onClick={openModalLogIn}>
+            <button
+              className="button-log-in"
+              onClick={() => setShowModalLogIn(true)}
+            >
               Log in
             </button>
           </li>
         </ul>
       </nav>
 
-      <div id="sign-up-modal" className="sign-up-modal hidden">
-        <form className="sign-up-modal-content" onSubmit={createUser}>
-          <GrClose
-            onClick={closeModalSignUp}
-            size="20px"
-            style={{
-              cursor: "pointer",
-              position: "absolute",
-              top: "20px",
-              right: "20px",
-            }}
-          />
-          <h3>Sign up</h3>
-          <div className="inputs-container">
-            <Input
-              placeholder="Nome completo"
-              type="text"
-              name="name"
-              id="input-name"
-              onChange={(event) =>
-                setFormData({ ...formData, name: event.target.value })
-              }
+      {showModalSignUp && (
+        <div id="sign-up-modal" className="sign-up-modal">
+          <form className="sign-up-modal-content" onSubmit={createUser}>
+            <GrClose
+              onClick={() => setShowModalSignUp(false)}
+              size="20px"
+              style={{
+                cursor: "pointer",
+                position: "absolute",
+                top: "20px",
+                right: "20px",
+              }}
             />
-            <Input
-              placeholder="E-mail"
-              type="email"
-              name="email"
-              id="input-email"
-              onChange={(event) =>
-                setFormData({ ...formData, email: event.target.value })
-              }
-            />
-            <Input
-              placeholder="Senha"
-              type="password"
-              name="password"
-              id="input-password"
-              onChange={(event) =>
-                setFormData({ ...formData, password: event.target.value })
-              }
-            />
-            <Input
-              placeholder="Data de nascimento"
-              type="text"
-              name="date"
-              id="input-date"
-              onChange={(event) =>
-                setFormData({ ...formData, date: event.target.value })
-              }
-            />
-            <Input
-              placeholder="Estado"
-              type="text"
-              name="state"
-              id="input-state"
-              onChange={(event) =>
-                setFormData({ ...formData, state: event.target.value })
-              }
-            />
-            <Input
-              placeholder="País"
-              type="text"
-              name="country"
-              id="input-country"
-              onChange={(event) =>
-                setFormData({ ...formData, country: event.target.value })
-              }
-            />
-          </div>
-          <Button description="Cadastrar" type="submit" />
-        </form>
-      </div>
+            <h3>Sign up</h3>
+            <div className="inputs-container">
+              <Input
+                placeholder="Nome completo"
+                type="text"
+                name="name"
+                id="input-name"
+                onChange={(event) =>
+                  setFormData({ ...formData, name: event.target.value })
+                }
+              />
+              <Input
+                placeholder="E-mail"
+                type="email"
+                name="email"
+                id="input-email"
+                onChange={(event) =>
+                  setFormData({ ...formData, email: event.target.value })
+                }
+              />
+              <Input
+                placeholder="Senha"
+                type="password"
+                name="password"
+                id="input-password"
+                onChange={(event) =>
+                  setFormData({ ...formData, password: event.target.value })
+                }
+              />
+              <Input
+                placeholder="Data de nascimento"
+                type="text"
+                name="date"
+                id="input-date"
+                onChange={(event) =>
+                  setFormData({ ...formData, date: event.target.value })
+                }
+              />
+              <Input
+                placeholder="Estado"
+                type="text"
+                name="state"
+                id="input-state"
+                onChange={(event) =>
+                  setFormData({ ...formData, state: event.target.value })
+                }
+              />
+              <Input
+                placeholder="País"
+                type="text"
+                name="country"
+                id="input-country"
+                onChange={(event) =>
+                  setFormData({ ...formData, country: event.target.value })
+                }
+              />
+            </div>
+            <Button description="Cadastrar" type="submit" />
+          </form>
+        </div>
+      )}
 
-      <div id="log-in-modal" className="log-in-modal hidden">
-        <form className="log-in-modal-content" onSubmit={loginUser}>
-          <GrClose
-            onClick={closeModalLogIn}
-            size="20px"
-            style={{
-              cursor: "pointer",
-              position: "absolute",
-              top: "20px",
-              right: "20px",
-            }}
-          />
-          <h3>Log in</h3>
-          <div className="inputs-container">
-            {errorLogin && <p className="error-text">{errorLogin}</p>}
-            <Input
-              placeholder="E-mail"
-              type="email"
-              name="email"
-              id="input-email-user"
-              onChange={(event) =>
-                setDataLogin({ ...dataLogin, email: event.target.value })
-              }
+      {showModalLogIn && (
+        <div id="log-in-modal" className="log-in-modal">
+          <form className="log-in-modal-content" onSubmit={loginUser}>
+            <GrClose
+              onClick={() => setShowModalLogIn(false)}
+              size="20px"
+              style={{
+                cursor: "pointer",
+                position: "absolute",
+                top: "20px",
+                right: "20px",
+              }}
             />
-            <Input
-              placeholder="Senha"
-              type="password"
-              name="password"
-              id="input-password-user"
-              onChange={(event) =>
-                setDataLogin({ ...dataLogin, password: event.target.value })
-              }
-            />
-          </div>
-          <Button description="Log in" type="submit" />
-        </form>
-      </div>
+            <h3>Log in</h3>
+            <div className="inputs-container">
+              {errorLogin && <p className="error-text">{errorLogin}</p>}
+              <Input
+                placeholder="E-mail"
+                type="email"
+                name="email"
+                id="input-email-user"
+                onChange={(event) =>
+                  setDataLogin({ ...dataLogin, email: event.target.value })
+                }
+              />
+              <Input
+                placeholder="Senha"
+                type="password"
+                name="password"
+                id="input-password-user"
+                onChange={(event) =>
+                  setDataLogin({ ...dataLogin, password: event.target.value })
+                }
+              />
+            </div>
+            <Button description="Entrar" type="submit" />
+          </form>
+        </div>
+      )}
     </>
   )
 }
