@@ -286,6 +286,598 @@
       "description": "Um modo autônomo gratuito do Fortnite da Epic Games.",
       "imageURL": "https://www.freetogame.com/g/57/thumbnail.jpg",
       "urlGame": "https://www.freetogame.com/open/fortnite-battle-royale"
+    },
+    {
+      "id": 540,
+      "name": "Overwatch 2",
+      "category": "Shooter",
+      "description": "Um shooter de equipe em primeira pessoa focado em heróis da Blizzard Entertainment.",
+      "imageURL": "https://www.freetogame.com/g/540/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/overwatch-2"
+    },
+    {
+      "id": 521,
+      "name": "Diablo Immortal",
+      "category": "MMOARPG",
+      "description": "Desenvolvido para dispositivos móveis e também lançado para PC, Diablo Immortal preenche as lacunas entre Diablo II e III em um ambiente MMOARPG.",
+      "imageURL": "https://www.freetogame.com/g/521/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/diablo-immortal"
+    },
+    {
+      "id": 517,
+      "name": "Lost Ark",
+      "category": "ARPG",
+      "description": "O multiplayer ARPG gratuito da Smilegate é uma aventura massiva cheia de terras esperando para serem exploradas, pessoas esperando para serem conhecidas e um mal antigo esperando para ser destruído.",
+      "imageURL": "https://www.freetogame.com/g/517/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/lost-ark"
+    },
+    {
+      "id": 516,
+      "name": "PUBG: BATTLEGROUNDS",
+      "category": "Shooter",
+      "description": "Entre em ação em um dos jogos de battle royale mais antigos, o PUBG Battlegrounds.",
+      "imageURL": "https://www.freetogame.com/g/516/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/pubg"
+    },
+    {
+      "id": 508,
+      "name": "Enlisted",
+      "category": "Shooter",
+      "description": "Prepare-se para comandar seu próprio esquadrão militar da Segunda Guerra Mundial no MMO de tiro baseado em esquadrão da Gaijin e Darkflow Software, Enlisted.",
+      "imageURL": "https://www.freetogame.com/g/508/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/enlisted"
+    },
+    {
+      "id": 345,
+      "name": "Forge of Empires",
+      "category": "Estratégia",
+      "description": "Um jogo de estratégia online gratuito baseado em navegador 2D, torne-se o líder e desenvolva sua cidade.",
+      "imageURL": "https://www.freetogame.com/g/345/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/forge-of-empires"
+    },
+    {
+      "id": 475,
+      "name": "Genshin Impact",
+      "category": "Action RPG",
+      "description": "Se você estava procurando por um jogo para satisfazer aquela coceira de RPG de ação de mundo aberto, com um toque asiático, então você vai querer conferir Genshin Impact da miHoYo.",
+      "imageURL": "https://www.freetogame.com/g/475/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/genshin-impact"
+    },
+    {
+      "id": 523,
+      "name": "Fall Guys",
+      "category": "Battle Royale",
+      "description": "Jogue o jogo de batalha real massivamente multiplayer mais competitivo com feijões gratuitamente em diversas plataformas.",
+      "imageURL": "https://www.freetogame.com/g/523/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/fall-guys"
+    },
+    {
+      "id": 340,
+      "name": "Game Of Thrones Winter Is Coming",
+      "category": "Estratégia",
+      "description": "Um RTS gratuito baseado em navegador baseado nos romances de George R.R. Martin e na popular série da HBO.",
+      "imageURL": "https://www.freetogame.com/g/340/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/game-of-thrones-winter-is-coming"
+    },
+    {
+      "id": 347,
+      "name": "Elvenar",
+      "category": "Estratégia",
+      "description": "Um MMO de estratégia de construção de cidade baseado em navegador, ambientado no mundo de fantasia de Elvenar.",
+      "imageURL": "https://www.freetogame.com/g/347/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/elvenar"
+    },
+    {
+      "id": 11,
+      "name": "Neverwinter",
+      "category": "MMORPG",
+      "description": "Um MMORPG de ação 3D gratuito baseado no aclamado jogo de RPG de fantasia Dungeons & Dragons.",
+      "imageURL": "https://www.freetogame.com/g/11/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/neverwinter"
+    },
+    {
+      "id": 380,
+      "name": "Dark Orbit Reloaded",
+      "category": "Shooter",
+      "description": "Um MMO de combate espacial 3D baseado em navegador com uma enorme base de jogadores!",
+      "imageURL": "https://www.freetogame.com/g/380/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/darkorbit"
+    },
+    {
+      "id": 449,
+      "name": "Albion Online",
+      "category": "MMORPG",
+      "description": "Um MMO sandbox gratuito para jogar, multiplataforma, desenvolvido e publicado pela Sandbox Interactive GmbH.",
+      "imageURL": "https://www.freetogame.com/g/449/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/albion-online"
+    },
+    {
+      "id": 6,
+      "name": "Blade and Soul",
+      "category": "MMORPG",
+      "description": "Um MMORPG de artes marciais gratuito para jogar que desafia os jogadores a aprenderem combinações de ataques.",
+      "imageURL": "https://www.freetogame.com/g/6/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/blade-and-soul"
+    },
+    {
+      "id": 212,
+      "name": "Brawlhalla",
+      "category": "Fighting",
+      "description": "Um jogo de luta 2D gratuito para jogar inspirado em Smash Bros.",
+      "imageURL": "https://www.freetogame.com/g/212/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/brawlhalla"
+    },
+    {
+      "id": 8,
+      "name": "Trove",
+      "category": "MMORPG",
+      "description": "Um jogo de RPG online em mundo aberto gratuito para jogar e sandbox!",
+      "imageURL": "https://www.freetogame.com/g/8/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/trove"
+    },
+    {
+      "id": 217,
+      "name": "Smite",
+      "category": "MOBA",
+      "description": "Um MOBA 3D gratuito para jogar e popular, onde você assume o papel de um deus antigo.",
+      "imageURL": "https://www.freetogame.com/g/217/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/smite"
+    },
+    {
+      "id": 3,
+      "name": "Warframe",
+      "category": "Shooter",
+      "description": "Um atirador de ação cooperativa gratuito para jogar em terceira pessoa, ambientado em um incrível mundo de ficção científica.",
+      "imageURL": "https://www.freetogame.com/g/3/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/warframe"
+    },
+    {
+      "id": 13,
+      "name": "Guild Wars 2",
+      "category": "MMORPG",
+      "description": "Um MMORPG gratuito para jogar, a sequência do popular Guild Wars da ArenaNet.",
+      "imageURL": "https://www.freetogame.com/g/13/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/guild-wars-2"
+    },
+    {
+      "id": 350,
+      "name": "Goodgame Empire",
+      "category": "Strategy",
+      "description": "Um jogo de estratégia medieval gratuito para jogar no navegador. Construa seu próprio castelo e crie um exército poderoso!",
+      "imageURL": "https://www.freetogame.com/g/350/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/goodgame-empire"
+    },
+    {
+      "id": 427,
+      "name": "Drakensang Online",
+      "category": "MMORPG",
+      "description": "Um MMORPG gratuito para jogar baseado em navegador, com visão superior e hack and slash, semelhante aos jogos da série Diablo.",
+      "imageURL": "https://www.freetogame.com/g/427/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/drakensang-online"
+    },
+    {
+      "id": 433,
+      "name": "RuneScape",
+      "category": "MMORPG",
+      "description": "Um MMORPG 3D popular baseado em navegador, com uma enorme base de jogadores e 15 anos de conteúdo.",
+      "imageURL": "https://www.freetogame.com/g/433/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/runescape"
+    },
+    {
+      "id": 572,
+      "name": "Ravendawn",
+      "category": "MMORPG",
+      "description": "Um MMORPG 2D de cima para baixo com mecânicas de construção e estabelecimento de propriedades.",
+      "imageURL": "https://www.freetogame.com/g/572/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/ravendawn"
+    },
+    {
+      "id": 62,
+      "name": "Kritika: Zero",
+      "category": "MMORPG",
+      "description": "Um MMORPG gratuito para jogar de hack and slash com uma aventura para um jogador da Valofe.",
+      "imageURL": "https://www.freetogame.com/g/62/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/kritika"
+    },
+    {
+      "id": 575,
+      "name": "One Punch Man: World",
+      "category": "Action Game",
+      "description": "Um jogo de ação 3D multiplayer gratuito para jogar da Crunchyroll Games.",
+      "imageURL": "https://www.freetogame.com/g/575/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/one-punch-man-world"
+    },
+    {
+      "id": 576,
+      "name": "Battle Teams 2",
+      "category": "Shooter",
+      "description": "Um jogo tático multiplayer de tiro com uma estética oriental.",
+      "imageURL": "https://www.freetogame.com/g/576/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/battle-teams-2"
+    },
+    {
+      "id": 570,
+      "name": "The Finals",
+      "category": "Shooter",
+      "description": "Um jogo de tiro PvP no estilo de game-show da Embark Studios.",
+      "imageURL": "https://www.freetogame.com/g/570/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/the-finals"
+    },
+    {
+      "id": 571,
+      "name": "Infinite Borders",
+      "category": "Strategy",
+      "description": "Um jogo de estratégia gratuito para jogar da NetEase ambientado durante o período dos Três Reinos da China.",
+      "imageURL": "https://www.freetogame.com/g/571/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/infinite-borders"
+    },
+    {
+      "id": 569,
+      "name": "Destiny's Divide",
+      "category": "Card Game",
+      "description": "Um jogo de cartas fantasia PvP gratuito para jogar.",
+      "imageURL": "https://www.freetogame.com/g/569/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/destinys-divide"
+    },
+    {
+      "id": 568,
+      "name": "Warhammer 40,000: Warpforge",
+      "category": "Card Game",
+      "description": "Um CCG gratuito para jogar ambientado no universo de Warhammer 40K.",
+      "imageURL": "https://www.freetogame.com/g/568/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/warhammer-40000-warpforge"
+    },
+    {
+      "id": 564,
+      "name": "Synced",
+      "category": "Shooter",
+      "description": "Um jogo cooperativo de tiro sci-fi gratuito para jogar.",
+      "imageURL": "https://www.freetogame.com/g/564/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/synced"
+    },
+    {
+      "id": 565,
+      "name": "Warhaven",
+      "category": "Strategy",
+      "description": "Um jogo gratuito para jogar de PvP de fantasia medieval da Nexon.",
+      "imageURL": "https://www.freetogame.com/g/565/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/warhaven"
+    },
+    {
+      "id": 567,
+      "name": "Microvolts: Recharged",
+      "category": "Shooter",
+      "description": "Um jogo de tiro em terceira pessoa baseado em lobby com tema de brinquedos.",
+      "imageURL": "https://www.freetogame.com/g/567/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/microvolts"
+    },
+    {
+      "id": 558,
+      "name": "Hawked",
+      "category": "Shooter",
+      "description": "Um jogo de tiro PvPvE gratuito para jogar de caça ao tesouro.",
+      "imageURL": "https://www.freetogame.com/g/558/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/hawked"
+    },
+    {
+      "id": 559,
+      "name": "Tales Of Yore",
+      "category": "MMORPG",
+      "description": "Um MMORPG 2D com muitos tropos de RPG.",
+      "imageURL": "https://www.freetogame.com/g/559/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/tales-of-yore"
+    },
+    {
+      "id": 562,
+      "name": "Waven",
+      "category": "Strategy",
+      "description": "Um RPG tático online gratuito para jogar da Ankama.",
+      "imageURL": "https://www.freetogame.com/g/562/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/waven"
+    },
+    {
+      "id": 566,
+      "name": "Town of Salem 2",
+      "category": "Strategy",
+      "description": "Um jogo de dedução ambientado em Salem.",
+      "imageURL": "https://www.freetogame.com/g/566/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/town-of-salem-2"
+    },
+    {
+      "id": 556,
+      "name": "Naraka: Bladepoint",
+      "category": "Battle Royale",
+      "description": "Um jogo de batalha real focado em combate corpo a corpo gratuito para jogar.",
+      "imageURL": "https://www.freetogame.com/g/556/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/naraka-bladepoint"
+    },
+    {
+      "id": 554,
+      "name": "Undawn",
+      "category": "Shooter",
+      "description": "Um RPG de sobrevivência de mundo aberto gratuito para jogar desenvolvido pela LightSpeed Studios e publicado pela Level Infinite.",
+      "imageURL": "https://www.freetogame.com/g/554/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/undawn"
+    },
+    {
+      "id": 268,
+      "name": "Eden Eternal",
+      "category": "MMORPG",
+      "description": "Um MMORPG de fantasia gratuito para jogar com gráficos de anime fofos.",
+      "imageURL": "https://www.freetogame.com/g/268/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/eden-eternal"
+    },
+    {
+      "id": 551,
+      "name": "Veiled Experts",
+      "category": "Shooter",
+      "description": "Um jogo de tiro multiplayer gratuito para jogar focado no modo de busca e destruição dos shooters clássicos.",
+      "imageURL": "https://www.freetogame.com/g/551/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/veiled-experts"
+    },
+    {
+      "id": 552,
+      "name": "Jected - Rivals",
+      "category": "Sports",
+      "description": "Um jogo gratuito para jogar que mistura esportes radicais com veículos destrutíveis e uma mecânica única de ejeção.",
+      "imageURL": "https://www.freetogame.com/g/552/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/jected-rivals"
+    },
+    {
+      "id": 557,
+      "name": "Ethyrial: Echoes of Yore",
+      "category": "MMORPG",
+      "description": "Um MMORPG clássico ambientado em um mundo à beira da Guerra Civil.",
+      "imageURL": "https://www.freetogame.com/g/557/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/ethyrial-echoes-of-yore"
+    },
+    {
+      "id": 574,
+      "name": "Mad World",
+      "category": "MMORPG",
+      "description": "Um MMORPG gratuito para jogar no navegador da Jandisoft com um tema e estilo artístico únicos.",
+      "imageURL": "https://www.freetogame.com/g/574/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/mad-world"
+    },
+    {
+      "id": 548,
+      "name": "Dead Cide Club",
+      "category": "Shooter",
+      "description": "Um jogo de tiro de rolagem lateral gratuito para jogar com diversos modos e tipos de personagens para escolher.",
+      "imageURL": "https://www.freetogame.com/g/548/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/dead-cide-club"
+    },
+    {
+      "id": 546,
+      "name": "Kartrider: Drift",
+      "category": "Racing",
+      "description": "Um jogo de corrida online multiplayer gratuito para jogar ambientado na franquia Kartrider.",
+      "imageURL": "https://www.freetogame.com/g/546/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/kartrider-drift"
+    },
+    {
+      "id": 547,
+      "name": "Warlander",
+      "category": "MOBA",
+      "description": "Um jogo de combate medieval com uma variedade de modos e personagens.",
+      "imageURL": "https://www.freetogame.com/g/547/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/warlander"
+    },
+    {
+      "id": 545,
+      "name": "Fangs",
+      "category": "MOBA",
+      "description": "Um MOBA 4v4 com estratégias específicas para cada herói.",
+      "imageURL": "https://www.freetogame.com/g/545/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/fangs"
+    },
+    {
+      "id": 549,
+      "name": "Summoners War: Chronicles",
+      "category": "MMORPG",
+      "description": "Um ARPG multiplataforma ambientado no universo de Summoners War.",
+      "imageURL": "https://www.freetogame.com/g/549/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/summoners-war-chronicles"
+    },
+    {
+      "id": 541,
+      "name": "Marvel Snap",
+      "category": "Card Game",
+      "description": "Um jogo de cartas estratégico acelerado ambientado no universo Marvel.",
+      "imageURL": "https://www.freetogame.com/g/541/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/marvel-snap"
+    },
+    {
+      "id": 542,
+      "name": "World Boss",
+      "category": "Shooter",
+      "description": "Um FPS experimental baseado em jogabilidade io e roguelike.",
+      "imageURL": "https://www.freetogame.com/g/542/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/world-boss"
+    },
+    {
+      "id": 536,
+      "name": "Omega Strikers",
+      "category": "Sports",
+      "description": "Um jogo de futebol 3v3 com eliminações.",
+      "imageURL": "https://www.freetogame.com/g/536/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/omega-strikers"
+    },
+    {
+      "id": 537,
+      "name": "Gundam Evolution",
+      "category": "Shooter",
+      "description": "Um jogo de tiro em equipe 6v6 baseado no multiverso Gundam.",
+      "imageURL": "https://www.freetogame.com/g/537/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/gundam-evolution"
+    },
+    {
+      "id": 539,
+      "name": "Deathverse: Let It Die",
+      "category": "Battle Royale",
+      "description": "Um jogo de sobrevivência onde os participantes são colocados uns contra os outros em um programa de jogos de vida ou morte.",
+      "imageURL": "https://www.freetogame.com/g/539/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/deathverse-let-it-die"
+    },
+    {
+      "id": 544,
+      "name": "Galahad 3093",
+      "category": "Shooter",
+      "description": "Um jogo de equipe 12v12 com mechs baseados na lenda arturiana.",
+      "imageURL": "https://www.freetogame.com/g/544/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/galahad-3093"
+    },
+    {
+      "id": 527,
+      "name": "Aero Tales Online",
+      "category": "MMORPG",
+      "description": "Aero Tales Online: The World é um MMORPG 3D gratuito para jogar com estilo de anime e elementos PvP e PvE. O jogo gira em torno da 'história misteriosa da Chave da Claridade'.",
+      "imageURL": "https://www.freetogame.com/g/527/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/aero-tales-online"
+    },
+    {
+      "id": 531,
+      "name": "Magic Spellslingers",
+      "category": "Card Game",
+      "description": "Magic Spellslingers é a última entrada baseada no popular jogo de cartas da Wizards of the Coast, Magic: The Gathering.",
+      "imageURL": "https://www.freetogame.com/g/531/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/magic-spellslingers"
+    },
+    {
+      "id": 533,
+      "name": "A.V.A Global",
+      "category": "Shooter",
+      "description": "A.V.A é um jogo de tiro em primeira pessoa online gratuito para jogar com múltiplos modos de jogo, personalizações únicas, bem como jogabilidade PvP e PvE.",
+      "imageURL": "https://www.freetogame.com/g/533/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/ava"
+    },
+    {
+      "id": 534,
+      "name": "Lost Light",
+      "category": "Shooter",
+      "description": "Um jogo de tiro pós-apocalíptico construído para criar uma experiência realista.",
+      "imageURL": "https://www.freetogame.com/g/534/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/lost-light"
+    },
+    {
+      "id": 524,
+      "name": "Temperia: Soul of Majestic",
+      "category": "Card Game",
+      "description": "Fãs de jogos de cartas colecionáveis, estão procurando algo um pouco diferente do normal? Então, dar uma olhada no Temperia: Soul of Majestic da Moonwolf Entertainment e A2 Softworks pode ser uma boa ideia.",
+      "imageURL": "https://www.freetogame.com/g/524/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/temperia"
+    },
+    {
+      "id": 526,
+      "name": "Chimeraland",
+      "category": "MMORPG",
+      "description": "Explore o mundo aberto do MMO sandbox ambientado em um mundo mítico. Jogue como uma das muitas raças, desde medusas até pessoas-dragão - ou até mesmo um humano comum, se preferir. Explore a terra, colete recursos, crie itens, construa casas e muito mais.",
+      "imageURL": "https://www.freetogame.com/g/526/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/chimeraland"
+    },
+    {
+      "id": 532,
+      "name": "World of Runes",
+      "category": "MMORPG",
+      "description": "Um MMO adorável no estilo anime com animais de estimação fofos e cartas colecionáveis.",
+      "imageURL": "https://www.freetogame.com/g/532/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/world-of-runes"
+    },
+    {
+      "id": 520,
+      "name": "Roller Champions",
+      "category": "Esportes",
+      "description": "E se você pudesse jogar roller derby, mas em um ambiente mais organizado e menos fisicamente perigoso?",
+      "imageURL": "https://www.freetogame.com/g/520/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/roller-champions"
+    },
+    {
+      "id": 519,
+      "name": "Space Punks",
+      "category": "Atirador",
+      "description": "Space Punks é um atirador cooperativo de saque com gráficos e humor que provavelmente atrairão os fãs de Borderlands.",
+      "imageURL": "https://www.freetogame.com/g/519/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/space-punks"
+    },
+    {
+      "id": 550,
+      "name": "Goose, Goose, DUCK",
+      "category": "Estratégia",
+      "description": "Um jogo de dedução social com gansos.",
+      "imageURL": "https://www.freetogame.com/g/550/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/goose-goose-duck"
+    },
+    {
+      "id": 518,
+      "name": "Swords of Legends Online",
+      "category": "MMORPG",
+      "description": "Explore um mundo de fantasia baseado na mitologia chinesa no MMORPG de ação Swords of Legends Online da Gameforge!",
+      "imageURL": "https://www.freetogame.com/g/518/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/swords-of-legends-online"
+    },
+    {
+      "id": 513,
+      "name": "Super Squad",
+      "category": "MOBA",
+      "description": "Prepare-se. É hora do caos. Super Squad é um jogo de tiro online multiplayer!",
+      "imageURL": "https://www.freetogame.com/g/513/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/super-squad"
+    },
+    {
+      "id": 512,
+      "name": "Sherwood Extreme",
+      "category": "Atirador",
+      "description": "O jogo de tiro de ação intensa Sherwood Extreme envia os jogadores em uma missão para salvar o reino!",
+      "imageURL": "https://www.freetogame.com/g/512/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/sherwood-extreme"
+    },
+    {
+      "id": 509,
+      "name": "Smash Legends",
+      "category": "Luta",
+      "description": "Os contos de fadas clássicos ficam selvagens com o jogo de ação Smash Legends da 5minlab e LINE Games Corporation.",
+      "imageURL": "https://www.freetogame.com/g/509/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/smash-legends"
+    },
+    {
+      "id": 510,
+      "name": "Drifters Loot the Galaxy",
+      "category": "Atirador",
+      "description": "Pegue seus Driftpacs e ganchos de escalada, é hora de saquear. Escolha um personagem e mergulhe no jogo de tiro em equipe Drifters Loot the Galaxy da Blind Squirrel.",
+      "imageURL": "https://www.freetogame.com/g/510/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/drifters-loot-the-galaxy"
+    },
+    {
+      "id": 502,
+      "name": "Primordials: Battle of Gods",
+      "category": "Estratégia",
+      "description": "Construa exércitos e lute pelo controle do reino no jogo de estratégia 1v1 Primordials: Battle of Gods da Global Dodo Entertainment.",
+      "imageURL": "https://www.freetogame.com/g/502/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/primordials-battle-of-gods"
+    },
+    {
+      "id": 507,
+      "name": "Super Mecha Champions",
+      "category": "Atirador",
+      "description": "Super Mecha Champions é a versão para PC do jogo PvP de anime para dispositivos móveis da NetEase, apresentando uma variedade de modos, mas focando no battle royale.",
+      "imageURL": "https://www.freetogame.com/g/507/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/super-mecha-champions"
+    },
+    {
+      "id": 309,
+      "name": "Seal Online",
+      "category": "MMORPG",
+      "description": "A free MMORP that has been out for a long period of time with solid history under its belt.",
+      "imageURL": "https://www.freetogame.com/g/309/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/seal-online"
+    },
+    {
+      "id": 310,
+      "name": "Team Fortress 2",
+      "category": "Shooter",
+      "description": "Valve's iconic class-based free-to-play first-person shooter!",
+      "imageURL": "https://www.freetogame.com/g/310/thumbnail.jpg",
+      "urlGame": "https://www.freetogame.com/open/team-fortress-2"
     }
   ]
 }

@@ -7,6 +7,7 @@ import Input from "./components/Input/Input"
 import Button from "./components/Button/Button"
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
+import Footer from "./components/Footer/Footer"
 
 function App() {
   const [showModalSignUp, setShowModalSignUp] = useState(false)
@@ -76,7 +77,7 @@ function App() {
             user.email === dataLogin.email &&
             user.password === dataLogin.password
           ) {
-            navigate("/logged")
+            navigate("/logged", user.name)
 
             console.log("Login feito com sucesso!")
             setErrorLogin("")
@@ -126,6 +127,19 @@ function App() {
           </li>
         </ul>
       </nav>
+
+      <div className="home-body">
+        <h1>
+          Descubra o universo épico dos <span>melhores jogos</span>
+        </h1>
+        <p>
+          Entre em um mundo onde a diversão é ilimitada, e a vitória é uma
+          jornada inesquecível. Junte-se à comunidade jovem de jogadores e
+          embarque agora na aventura online que vai definir o seu legado gamer!
+        </p>
+      </div>
+
+      <Footer />
 
       {showModalSignUp && (
         <div id="sign-up-modal" className="sign-up-modal">

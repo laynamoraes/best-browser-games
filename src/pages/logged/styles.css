@@ -5,6 +5,7 @@
   background-color: var(--color-navbar);
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #373952;
 }
 
 .navbar-container-logged .navbar-content {
@@ -46,7 +47,6 @@
 .games-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   gap: 40px;
   flex-wrap: wrap;
 }

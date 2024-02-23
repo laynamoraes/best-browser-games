@@ -1,23 +1,52 @@
+import "./styles.css"
 import { useEffect, useState } from "react"
+import { RiGameFill } from "react-icons/ri"
 import CardGame from "../../components/CardGame/CardGame"
 import IconUser from "../../components/IconUser/IconUser"
-import "./styles.css"
-
-import { RiGameFill } from "react-icons/ri"
+import Pagination from "../../components/Pagination/Pagination"
+import Footer from "../../components/Footer/Footer"
 
 export default function Logged() {
   const [dataGames, setDataGames] = useState([])
   const [page, setPage] = useState(1)
+  const [pages, setPages] = useState(8)
+  const [search, setSearch] = useState("")
 
   useEffect(() => {
-    fetch(`http://localhost:3000/games?_page=${page}&_limit=12`)
+    fetch(
+      `http://localhost:3000/games?_page=${page}&_limit=12&name_like=${search}`
+    )
       .then((response) => response.json())
       .then((data) => {
         console.log(data)
         setDataGames(data)
       })
       .catch((error) => console.error(error))
-  }, [])
+  }, [page, search])
+
+  function firstPage() {
+    setPage(1)
+  }
+
+  function previousPage() {
+    if (page - 1 <= 0) {
+      return
+    }
+
+    setPage(page - 1)
+  }
+
+  function nextPage() {
+    if (page + 1 > pages) {
+      return
+    }
+
+    setPage(page + 1)
+  }
+
+  function lastPage() {
+    setPage(pages)
+  }
 
   return (
     <div>
@@ -33,7 +62,13 @@ export default function Logged() {
             </h1>
           </li>
           <li>
-            <input type="text" placeholder="Search" name="" id="input-search" />
+            <input
+              type="text"
+              placeholder="Search"
+              name=""
+              id="input-search"
+              onChange={(event) => setSearch(event.target.value)}
+            />
           </li>
           <li>
             <IconUser letterUser={"L"} />
@@ -60,15 +95,21 @@ export default function Logged() {
         </main>
       </div>
 
-      <div className="pagination-container">
-        <div className="pagination-items">
-          <p>12 de 50</p>
-        </div>
+      <Pagination
+        totalItems={12 * pages}
+        currentPage={page}
+        totalPages={pages}
+        firstPage={firstPage}
+        previousPage={previousPage}
+        nextPage={nextPage}
+        lastPage={lastPage}
+        disabledFirstPage={page - 1 <= 0}
+        disabledPrevioustPage={page - 1 <= 0}
+        disabledNextPage={page + 1 > pages}
+        disabledLastPage={page + 1 > pages}
+      />
 
-        <p>Texto aqui</p>
-      </div>
-
-      <footer>Meu footer</footer>
+      <Footer />
     </div>
   )
 }
