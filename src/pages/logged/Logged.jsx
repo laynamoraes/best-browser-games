@@ -7,9 +7,10 @@ import { RiGameFill } from "react-icons/ri"
 
 export default function Logged() {
   const [dataGames, setDataGames] = useState([])
+  const [page, setPage] = useState(1)
 
   useEffect(() => {
-    fetch("http://localhost:3000/games")
+    fetch(`http://localhost:3000/games?_page=${page}&_limit=12`)
       .then((response) => response.json())
       .then((data) => {
         console.log(data)
@@ -47,15 +48,27 @@ export default function Logged() {
             {dataGames.map((game) => (
               <CardGame
                 key={game.id}
+                id={game.id}
                 imageURL={game.imageURL}
                 name={game.name}
                 description={game.description}
                 category={game.category}
+                urlGame={game.urlGame}
               />
             ))}
           </div>
         </main>
       </div>
+
+      <div className="pagination-container">
+        <div className="pagination-items">
+          <p>12 de 50</p>
+        </div>
+
+        <p>Texto aqui</p>
+      </div>
+
+      <footer>Meu footer</footer>
     </div>
   )
 }
